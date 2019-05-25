@@ -1,0 +1,23 @@
+.container{
+    width: 70%;
+    text-align: center;
+}
+
+.btn-circle{
+    width: 200px;
+    height: 200px;
+    padding: 3px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 2em;
+    background: tomato;
+    margin: 10%;
+    text-shadow: 2px 2px gray;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.btn-circle:hover{
+    background: crimson;
+    transform: scale(1.5);
+    color: white;
+}
