@@ -8,7 +8,7 @@ $('#getTheJoke').click(function(){
             output += data.value.joke + '</p>'
          
         $('#showJoke').html(output)
-        $('#showJoke').append('<p class="moreJokes">For more jokes click again the red button</p>')
+        $('#showJoke').append('<p class="moreJokes text-muted">For more jokes click again the red button</p>')
         
     
 })
